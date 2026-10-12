@@ -1,0 +1,6 @@
+services:
+  telegraf:
+    network_mode: host
+  grafana:
+    network_mode: host
+    ports: !reset []
